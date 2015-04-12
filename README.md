@@ -3,7 +3,9 @@
 
 3DOGS ist ein 3D-Graphik Programm unter Verwendung der Graphik-Biblitheken OpenGL und GLUT 3.7, das ein auf einer Fläche oder in einem Raum bewegtes, sich veränderndes Objekt darstellt. Die Szene mit Fläche ( oder Raum ) und Objekt soll aus mindestens 12 einfachen Objekten zusammengesetzt sein. "3DOGS" spricht sich "Three Dogs" ( "Drei Hunde" ), steht aber für "3D OpenGL Sample".
 
-Der C++ Code lässt sich mit dem GNU-C/C++ Compiler "MinGW 3.3.1" übersetzen, aber nicht mit GNU-C/C++ Compilern "MinGW 4.x". Neueste verwendbare Dev-C IDE für Windows ist daher: IDE "Dev-C ++ 4.9.9.1, mit GNU-C/C++ Compiler "MinGW 3.3.1". Neuere IDEs enthalten den GNU-C/C++ Compilern "MinGW 4.x".
+Der C++ Code lässt sich mit dem GNU-C/C++ Compiler "MinGW 3.3.1" übersetzen, aber nicht mit GNU-C/C++ Compilern "MinGW 4.x". Neueste verwendbare Dev-C IDE für Windows ist daher: 
+
+IDE "Dev-C ++ 4.9.9.1, mit GNU-C/C++ Compiler "MinGW 3.3.1". 
 
 Installation
 - Runtime
