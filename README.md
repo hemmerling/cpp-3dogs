@@ -5,6 +5,8 @@
 
 Der Schwerpunkt meiner Arbeit lag nicht in der Erstellung einer besonders coolen 3D-Szene, sondern in der Entwicklung eines C++ Wrappers. Ziel des C++ Wrappers ist, die bei C-Programmen mit GLUT sonst vorgegebene Schleifenstruktur des Programmablaufs zu durchbrechen: Die Objekte werden in einem STL-Container gepackt, im STL-Container befindliche Objekte werden dargestellt.
 
+Die Szene stellt ein steuerbares Fahrzeug her. Aus Zeitmangel und Termindruck im Projekt ist die Szene nicht ganz fehlerfrei, d.h. die Fahrzeugsteuererung ist noch nicht wirklich funktionstüchtig: Man kann die Räder drehen, es gibt aber keine an sich vorgesehene Fortbewegung.
+
 ![3DOGS - 3D OpenGL Sample, Screenshot](/doc/images/opengl1.png "3DOGS - 3D OpenGL Sample, Screenshot") 
 ![3DOGS - 3D OpenGL Sample, Screenshot](/doc/images/opengl2.png "3DOGS - 3D OpenGL Sample, Screenshot") 
 ![3DOGS - 3D OpenGL Sample, Screenshot](/doc/images/opengl3.png "3DOGS - 3D OpenGL Sample, Screenshot") 
