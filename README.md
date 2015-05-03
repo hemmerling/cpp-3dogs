@@ -3,6 +3,10 @@
 
 3DOGS ist ein 3D-Graphik Programm unter Verwendung der Graphik-Biblitheken OpenGL und GLUT 3.7, das ein auf einer Fläche oder in einem Raum bewegtes, sich veränderndes Objekt darstellt. Die Szene mit Fläche ( oder Raum ) und Objekt soll aus mindestens 12 einfachen Objekten zusammengesetzt sein. "3DOGS" spricht sich "Three Dogs" ( "Drei Hunde" ), steht aber für "3D OpenGL Sample".
 
+![3DOGS - 3D OpenGL Sample, Screenshot](/doc/images/opengl1.png "3DOGS - 3D OpenGL Sample, Screenshot") 
+![3DOGS - 3D OpenGL Sample, Screenshot](/doc/images/opengl2.png "3DOGS - 3D OpenGL Sample, Screenshot") 
+![3DOGS - 3D OpenGL Sample, Screenshot](/doc/images/opengl3.png "3DOGS - 3D OpenGL Sample, Screenshot") 
+
 Das Projekt wurde entwickelt mit
 - GNU-C/C++ Compiler "MinGW 3.3.1"
 - Standard Template Library (STL ), die Teil des Standard-Lieferumfangs von C/C++ Compilern wie GNU-C/C++ Compiler "MinGW 3.3.1" ist 
@@ -27,6 +31,3 @@ herunter.
   - Generieren und kopieren Sie die mit MinGW 3.x Bibliotheken "libglaux.a", "libglu32.a", "libglut32.a", "libopengls32.a" in das Projekt-Verzeichnis "lib"
 - Für das Projekt wurde eine XML Konfigurationsdatei für das Installations- und Distributions-Werkzeug "Ghost Install Free 4.x" erstellt. Damit kann ein Installer für die Windows-Version von 3DOGS erstellt werden.
 
-![3DOGS Screenshot](/doc/images/opengl1.png "3DOGS Screenshot") 
-![3DOGS Screenshot](/doc/images/opengl2.png "3DOGS Screenshot") 
-![3DOGS Screenshot](/doc/images/opengl3.png "3DOGS Screenshot") 
