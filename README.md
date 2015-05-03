@@ -3,7 +3,7 @@
 
 3DOGS ist ein 3D-Graphik Programm unter Verwendung der Graphik-Biblitheken OpenGL und GLUT 3.7, das ein auf einer Fläche oder in einem Raum bewegtes, sich veränderndes Objekt darstellt. Die Szene mit Fläche ( oder Raum ) und Objekt soll aus mindestens 12 einfachen Objekten zusammengesetzt sein. "3DOGS" spricht sich "Three Dogs" ( "Drei Hunde" ), steht aber für "3D OpenGL Sample".
 
-Der Schwerpunkt meiner Arbeit lag nicht in der Erstellung einer besonders coolen 3D-Szene, sondern in der Entwicklung eines C++ Wrappers. Ziel des C++ Wrappers ist, die bei C-Programmen mit GLUT sonst vorgegebene Schleifenstruktur des Programmablaufs zu durchbrechen: Die Objekte werden in einem STL-Container gepackt, im STL-Container befindliche Objekte werden dargestellt.
+Der Schwerpunkt meiner Arbeit lag nicht in der Erstellung einer besonders coolen 3D-Szene, sondern in der Entwicklung eines C++ Wrappers. Ziel des C++ Wrappers ist, die bei C-Programmen mit GLUT sonst vorgegebene Schleifenstruktur des prozeduralen Programmablaufs zu durchbrechen: Die Objekte werden in einem STL-Container gepackt, im STL-Container befindliche Objekte werden dargestellt.
 
 Die Szene stellt ein steuerbares Fahrzeug her. Aus Zeitmangel und Termindruck im Projekt ist die Szene nicht ganz fehlerfrei, d.h. die Fahrzeugsteuererung ist noch nicht wirklich funktionstüchtig: Man kann die Räder drehen, es gibt aber keine an sich vorgesehene Fortbewegung.
 
