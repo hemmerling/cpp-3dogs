@@ -29,5 +29,5 @@ herunter.
 - Compiler-Bibliotheken
   - Kopieren Sie "glaux.h" in das Dev-Cpp Verzeichnis "include\GL".
   - Kopieren Sie die mit MinGW 3.x Bibliotheken "libglaux.a", "libglu32.a", "libglut32.a", "libopengls32.a" in das Projekt-Verzeichnis "lib"
-- Für das Projekt wurde eine XML Konfigurationsdatei für das Installations- und Distributions-Werkzeug "Ghost Install Free 4.x" erstellt. Damit kann ein Installer für die Windows-Version von 3DOGS erstellt werden.
+- Für das Projekt wurde eine XML Konfigurationsdatei für das Installations- und Distributions-Werkzeug "Ghost Install Free 4.x" von Ethalone Solutions ( http://www.ethalone.com/ ) erstellt. Damit kann ein Installer für die Windows-Version von 3DOGS erstellt werden.
 
