@@ -1,0 +1,323 @@
+# Project: 3dogs
+# Makefile created by Dev-C++ 4.9.9.1
+
+CPP  = g++.exe -D__DEBUG__
+CC   = gcc.exe -D__DEBUG__
+WINDRES = windres.exe
+RES  = 
+OBJ  = ../obj/Callback.o ../obj/main.o ../obj/opengl.o ../obj/color.o ../obj/Coordinates.o ../obj/equation.o ../obj/Light.o ../obj/Lposition.o ../obj/MapContainer.o ../obj/mathe.o ../obj/Modifizierer.o ../obj/quatro.o ../obj/triple.o ../obj/Vektor.o ../obj/VektorElement.o ../obj/MFarbe.o ../obj/MFarbe1.o ../obj/MHoeherZ.o ../obj/MLookX0.o ../obj/MLookX1.o ../obj/MLookX2.o ../obj/MLookX3.o ../obj/MModify.o ../obj/MMorphX1.o ../obj/MPerspective.o ../obj/mPosition.o ../obj/Mquadrats.o ../obj/mquadratw.o ../obj/mRing.o ../obj/MRotation1.o ../obj/MRotation2.o ../obj/MRotX1.o ../obj/MRotX2.o ../obj/MRotX3.o ../obj/MRotX4.o ../obj/MSzenekippen.o ../obj/MTieferZ.o ../obj/MTranslation1.o ../obj/MTranslation2.o ../obj/MTransX1.o ../obj/MTransX2.o ../obj/MTransX3.o ../obj/MTransX4.o ../obj/MTransX5.o ../obj/MUrsprungZ.o ../obj/wcylinder.o ../obj/wLookAt.o ../obj/wperspective.o ../obj/WQuadric.o ../obj/WSphere.o ../obj/WTexture.o ../obj/xdisplay.o ../obj/xentry.o ../obj/xIdle.o ../obj/xinit.o ../obj/xjoystick.o ../obj/xKeyboard.o ../obj/xKeyboardUp.o ../obj/xMotion.o ../obj/xMouse.o ../obj/xMState.o ../obj/xMStatus.o ../obj/xOverlay.o ../obj/xPMotion.o ../obj/xreshape.o ../obj/xSpecial.o ../obj/xSpecialUp.o ../obj/xTimer.o ../obj/xVisibility.o ../obj/xWStatus.o ../obj/ycone.o ../obj/ycube.o ../obj/yDodec.o ../obj/yicos.o ../obj/yOct.o ../obj/yPot.o ../obj/ySphere.o ../obj/yTetr.o ../obj/yTorus.o ../obj/zAction.o ../obj/zClipPlane.o ../obj/zCmd.o ../obj/zcuboid.o ../obj/zdisplaylist.o ../obj/zevent.o ../obj/zexec.o ../obj/zgraticule.o ../obj/zinput.o ../obj/zLighting.o ../obj/zObject.o ../obj/zPerspective.o ../obj/zPop.o ../obj/zPush.o ../obj/zqueue.o ../obj/zRectangle.o ../obj/zRotation.o ../obj/zTranslation.o ../obj/scene.o ../obj/static.o $(RES)
+LINKOBJ  = ../obj/Callback.o ../obj/main.o ../obj/opengl.o ../obj/color.o ../obj/Coordinates.o ../obj/equation.o ../obj/Light.o ../obj/Lposition.o ../obj/MapContainer.o ../obj/mathe.o ../obj/Modifizierer.o ../obj/quatro.o ../obj/triple.o ../obj/Vektor.o ../obj/VektorElement.o ../obj/MFarbe.o ../obj/MFarbe1.o ../obj/MHoeherZ.o ../obj/MLookX0.o ../obj/MLookX1.o ../obj/MLookX2.o ../obj/MLookX3.o ../obj/MModify.o ../obj/MMorphX1.o ../obj/MPerspective.o ../obj/mPosition.o ../obj/Mquadrats.o ../obj/mquadratw.o ../obj/mRing.o ../obj/MRotation1.o ../obj/MRotation2.o ../obj/MRotX1.o ../obj/MRotX2.o ../obj/MRotX3.o ../obj/MRotX4.o ../obj/MSzenekippen.o ../obj/MTieferZ.o ../obj/MTranslation1.o ../obj/MTranslation2.o ../obj/MTransX1.o ../obj/MTransX2.o ../obj/MTransX3.o ../obj/MTransX4.o ../obj/MTransX5.o ../obj/MUrsprungZ.o ../obj/wcylinder.o ../obj/wLookAt.o ../obj/wperspective.o ../obj/WQuadric.o ../obj/WSphere.o ../obj/WTexture.o ../obj/xdisplay.o ../obj/xentry.o ../obj/xIdle.o ../obj/xinit.o ../obj/xjoystick.o ../obj/xKeyboard.o ../obj/xKeyboardUp.o ../obj/xMotion.o ../obj/xMouse.o ../obj/xMState.o ../obj/xMStatus.o ../obj/xOverlay.o ../obj/xPMotion.o ../obj/xreshape.o ../obj/xSpecial.o ../obj/xSpecialUp.o ../obj/xTimer.o ../obj/xVisibility.o ../obj/xWStatus.o ../obj/ycone.o ../obj/ycube.o ../obj/yDodec.o ../obj/yicos.o ../obj/yOct.o ../obj/yPot.o ../obj/ySphere.o ../obj/yTetr.o ../obj/yTorus.o ../obj/zAction.o ../obj/zClipPlane.o ../obj/zCmd.o ../obj/zcuboid.o ../obj/zdisplaylist.o ../obj/zevent.o ../obj/zexec.o ../obj/zgraticule.o ../obj/zinput.o ../obj/zLighting.o ../obj/zObject.o ../obj/zPerspective.o ../obj/zPop.o ../obj/zPush.o ../obj/zqueue.o ../obj/zRectangle.o ../obj/zRotation.o ../obj/zTranslation.o ../obj/scene.o ../obj/static.o $(RES)
+LIBS =  -L"C:/int/w32/develop/Dev-Cpp/lib" ../lib/libopengl32.a ../lib/libglu32.a ../lib/libglut32.a ../lib/libglaux.a  -g3 
+INCS =  -I"C:/int/w32/develop/Dev-Cpp/include" 
+CXXINCS =  -I"C:/int/w32/develop/Dev-Cpp/include/c++/3.3.1"  -I"C:/int/w32/develop/Dev-Cpp/include/c++/3.3.1/mingw32"  -I"C:/int/w32/develop/Dev-Cpp/include/c++/3.3.1/backward"  -I"C:/int/w32/develop/Dev-Cpp/lib/gcc-lib/mingw32/3.3.1/include"  -I"C:/int/w32/develop/Dev-Cpp/include" 
+BIN  = ../bin/application/3dogs.exe
+CXXFLAGS = $(CXXINCS)   -fexceptions -g3
+CFLAGS = $(INCS)   -fexceptions -g3
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before ../bin/application/3dogs.exe all-after
+
+
+clean: clean-custom
+	rm -f $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "..\bin\application\3dogs.exe" $(LIBS)
+
+../obj/Callback.o: ../src/framework/opengl/Callback.CPP
+	$(CPP) -c ../src/framework/opengl/Callback.CPP -o ../obj/Callback.o $(CXXFLAGS)
+
+../obj/main.o: ../src/framework/opengl/main.cpp
+	$(CPP) -c ../src/framework/opengl/main.cpp -o ../obj/main.o $(CXXFLAGS)
+
+../obj/opengl.o: ../src/framework/opengl/opengl.cpp
+	$(CPP) -c ../src/framework/opengl/opengl.cpp -o ../obj/opengl.o $(CXXFLAGS)
+
+../obj/color.o: ../src/modell/general/color.cpp
+	$(CPP) -c ../src/modell/general/color.cpp -o ../obj/color.o $(CXXFLAGS)
+
+../obj/Coordinates.o: ../src/modell/general/Coordinates.cpp
+	$(CPP) -c ../src/modell/general/Coordinates.cpp -o ../obj/Coordinates.o $(CXXFLAGS)
+
+../obj/equation.o: ../src/modell/general/equation.cpp
+	$(CPP) -c ../src/modell/general/equation.cpp -o ../obj/equation.o $(CXXFLAGS)
+
+../obj/Light.o: ../src/modell/general/Light.cpp
+	$(CPP) -c ../src/modell/general/Light.cpp -o ../obj/Light.o $(CXXFLAGS)
+
+../obj/Lposition.o: ../src/modell/general/Lposition.cpp
+	$(CPP) -c ../src/modell/general/Lposition.cpp -o ../obj/Lposition.o $(CXXFLAGS)
+
+../obj/MapContainer.o: ../src/modell/general/MapContainer.cpp
+	$(CPP) -c ../src/modell/general/MapContainer.cpp -o ../obj/MapContainer.o $(CXXFLAGS)
+
+../obj/mathe.o: ../src/modell/general/mathe.cpp
+	$(CPP) -c ../src/modell/general/mathe.cpp -o ../obj/mathe.o $(CXXFLAGS)
+
+../obj/Modifizierer.o: ../src/modell/general/Modifizierer.cpp
+	$(CPP) -c ../src/modell/general/Modifizierer.cpp -o ../obj/Modifizierer.o $(CXXFLAGS)
+
+../obj/quatro.o: ../src/modell/general/quatro.cpp
+	$(CPP) -c ../src/modell/general/quatro.cpp -o ../obj/quatro.o $(CXXFLAGS)
+
+../obj/triple.o: ../src/modell/general/triple.cpp
+	$(CPP) -c ../src/modell/general/triple.cpp -o ../obj/triple.o $(CXXFLAGS)
+
+../obj/Vektor.o: ../src/modell/general/Vektor.cpp
+	$(CPP) -c ../src/modell/general/Vektor.cpp -o ../obj/Vektor.o $(CXXFLAGS)
+
+../obj/VektorElement.o: ../src/modell/general/VektorElement.cpp
+	$(CPP) -c ../src/modell/general/VektorElement.cpp -o ../obj/VektorElement.o $(CXXFLAGS)
+
+../obj/MFarbe.o: ../src/modell/objects/MFarbe.cpp
+	$(CPP) -c ../src/modell/objects/MFarbe.cpp -o ../obj/MFarbe.o $(CXXFLAGS)
+
+../obj/MFarbe1.o: ../src/modell/objects/MFarbe1.cpp
+	$(CPP) -c ../src/modell/objects/MFarbe1.cpp -o ../obj/MFarbe1.o $(CXXFLAGS)
+
+../obj/MHoeherZ.o: ../src/modell/objects/MHoeherZ.cpp
+	$(CPP) -c ../src/modell/objects/MHoeherZ.cpp -o ../obj/MHoeherZ.o $(CXXFLAGS)
+
+../obj/MLookX0.o: ../src/modell/objects/MLookX0.cpp
+	$(CPP) -c ../src/modell/objects/MLookX0.cpp -o ../obj/MLookX0.o $(CXXFLAGS)
+
+../obj/MLookX1.o: ../src/modell/objects/MLookX1.cpp
+	$(CPP) -c ../src/modell/objects/MLookX1.cpp -o ../obj/MLookX1.o $(CXXFLAGS)
+
+../obj/MLookX2.o: ../src/modell/objects/MLookX2.cpp
+	$(CPP) -c ../src/modell/objects/MLookX2.cpp -o ../obj/MLookX2.o $(CXXFLAGS)
+
+../obj/MLookX3.o: ../src/modell/objects/MLookX3.cpp
+	$(CPP) -c ../src/modell/objects/MLookX3.cpp -o ../obj/MLookX3.o $(CXXFLAGS)
+
+../obj/MModify.o: ../src/modell/objects/MModify.cpp
+	$(CPP) -c ../src/modell/objects/MModify.cpp -o ../obj/MModify.o $(CXXFLAGS)
+
+../obj/MMorphX1.o: ../src/modell/objects/MMorphX1.cpp
+	$(CPP) -c ../src/modell/objects/MMorphX1.cpp -o ../obj/MMorphX1.o $(CXXFLAGS)
+
+../obj/MPerspective.o: ../src/modell/objects/MPerspective.cpp
+	$(CPP) -c ../src/modell/objects/MPerspective.cpp -o ../obj/MPerspective.o $(CXXFLAGS)
+
+../obj/mPosition.o: ../src/modell/objects/mPosition.cpp
+	$(CPP) -c ../src/modell/objects/mPosition.cpp -o ../obj/mPosition.o $(CXXFLAGS)
+
+../obj/Mquadrats.o: ../src/modell/objects/Mquadrats.cpp
+	$(CPP) -c ../src/modell/objects/Mquadrats.cpp -o ../obj/Mquadrats.o $(CXXFLAGS)
+
+../obj/mquadratw.o: ../src/modell/objects/mquadratw.cpp
+	$(CPP) -c ../src/modell/objects/mquadratw.cpp -o ../obj/mquadratw.o $(CXXFLAGS)
+
+../obj/mRing.o: ../src/modell/objects/mRing.cpp
+	$(CPP) -c ../src/modell/objects/mRing.cpp -o ../obj/mRing.o $(CXXFLAGS)
+
+../obj/MRotation1.o: ../src/modell/objects/MRotation1.cpp
+	$(CPP) -c ../src/modell/objects/MRotation1.cpp -o ../obj/MRotation1.o $(CXXFLAGS)
+
+../obj/MRotation2.o: ../src/modell/objects/MRotation2.cpp
+	$(CPP) -c ../src/modell/objects/MRotation2.cpp -o ../obj/MRotation2.o $(CXXFLAGS)
+
+../obj/MRotX1.o: ../src/modell/objects/MRotX1.cpp
+	$(CPP) -c ../src/modell/objects/MRotX1.cpp -o ../obj/MRotX1.o $(CXXFLAGS)
+
+../obj/MRotX2.o: ../src/modell/objects/MRotX2.cpp
+	$(CPP) -c ../src/modell/objects/MRotX2.cpp -o ../obj/MRotX2.o $(CXXFLAGS)
+
+../obj/MRotX3.o: ../src/modell/objects/MRotX3.cpp
+	$(CPP) -c ../src/modell/objects/MRotX3.cpp -o ../obj/MRotX3.o $(CXXFLAGS)
+
+../obj/MRotX4.o: ../src/modell/objects/MRotX4.cpp
+	$(CPP) -c ../src/modell/objects/MRotX4.cpp -o ../obj/MRotX4.o $(CXXFLAGS)
+
+../obj/MSzenekippen.o: ../src/modell/objects/MSzenekippen.cpp
+	$(CPP) -c ../src/modell/objects/MSzenekippen.cpp -o ../obj/MSzenekippen.o $(CXXFLAGS)
+
+../obj/MTieferZ.o: ../src/modell/objects/MTieferZ.cpp
+	$(CPP) -c ../src/modell/objects/MTieferZ.cpp -o ../obj/MTieferZ.o $(CXXFLAGS)
+
+../obj/MTranslation1.o: ../src/modell/objects/MTranslation1.cpp
+	$(CPP) -c ../src/modell/objects/MTranslation1.cpp -o ../obj/MTranslation1.o $(CXXFLAGS)
+
+../obj/MTranslation2.o: ../src/modell/objects/MTranslation2.cpp
+	$(CPP) -c ../src/modell/objects/MTranslation2.cpp -o ../obj/MTranslation2.o $(CXXFLAGS)
+
+../obj/MTransX1.o: ../src/modell/objects/MTransX1.cpp
+	$(CPP) -c ../src/modell/objects/MTransX1.cpp -o ../obj/MTransX1.o $(CXXFLAGS)
+
+../obj/MTransX2.o: ../src/modell/objects/MTransX2.cpp
+	$(CPP) -c ../src/modell/objects/MTransX2.cpp -o ../obj/MTransX2.o $(CXXFLAGS)
+
+../obj/MTransX3.o: ../src/modell/objects/MTransX3.cpp
+	$(CPP) -c ../src/modell/objects/MTransX3.cpp -o ../obj/MTransX3.o $(CXXFLAGS)
+
+../obj/MTransX4.o: ../src/modell/objects/MTransX4.cpp
+	$(CPP) -c ../src/modell/objects/MTransX4.cpp -o ../obj/MTransX4.o $(CXXFLAGS)
+
+../obj/MTransX5.o: ../src/modell/objects/MTransX5.cpp
+	$(CPP) -c ../src/modell/objects/MTransX5.cpp -o ../obj/MTransX5.o $(CXXFLAGS)
+
+../obj/MUrsprungZ.o: ../src/modell/objects/MUrsprungZ.cpp
+	$(CPP) -c ../src/modell/objects/MUrsprungZ.cpp -o ../obj/MUrsprungZ.o $(CXXFLAGS)
+
+../obj/wcylinder.o: ../src/modell/objects/wcylinder.cpp
+	$(CPP) -c ../src/modell/objects/wcylinder.cpp -o ../obj/wcylinder.o $(CXXFLAGS)
+
+../obj/wLookAt.o: ../src/modell/objects/wLookAt.cpp
+	$(CPP) -c ../src/modell/objects/wLookAt.cpp -o ../obj/wLookAt.o $(CXXFLAGS)
+
+../obj/wperspective.o: ../src/modell/objects/wperspective.cpp
+	$(CPP) -c ../src/modell/objects/wperspective.cpp -o ../obj/wperspective.o $(CXXFLAGS)
+
+../obj/WQuadric.o: ../src/modell/objects/WQuadric.cpp
+	$(CPP) -c ../src/modell/objects/WQuadric.cpp -o ../obj/WQuadric.o $(CXXFLAGS)
+
+../obj/WSphere.o: ../src/modell/objects/WSphere.cpp
+	$(CPP) -c ../src/modell/objects/WSphere.cpp -o ../obj/WSphere.o $(CXXFLAGS)
+
+../obj/WTexture.o: ../src/modell/objects/WTexture.cpp
+	$(CPP) -c ../src/modell/objects/WTexture.cpp -o ../obj/WTexture.o $(CXXFLAGS)
+
+../obj/xdisplay.o: ../src/modell/objects/xdisplay.cpp
+	$(CPP) -c ../src/modell/objects/xdisplay.cpp -o ../obj/xdisplay.o $(CXXFLAGS)
+
+../obj/xentry.o: ../src/modell/objects/xentry.cpp
+	$(CPP) -c ../src/modell/objects/xentry.cpp -o ../obj/xentry.o $(CXXFLAGS)
+
+../obj/xIdle.o: ../src/modell/objects/xIdle.cpp
+	$(CPP) -c ../src/modell/objects/xIdle.cpp -o ../obj/xIdle.o $(CXXFLAGS)
+
+../obj/xinit.o: ../src/modell/objects/xinit.cpp
+	$(CPP) -c ../src/modell/objects/xinit.cpp -o ../obj/xinit.o $(CXXFLAGS)
+
+../obj/xjoystick.o: ../src/modell/objects/xjoystick.cpp
+	$(CPP) -c ../src/modell/objects/xjoystick.cpp -o ../obj/xjoystick.o $(CXXFLAGS)
+
+../obj/xKeyboard.o: ../src/modell/objects/xKeyboard.cpp
+	$(CPP) -c ../src/modell/objects/xKeyboard.cpp -o ../obj/xKeyboard.o $(CXXFLAGS)
+
+../obj/xKeyboardUp.o: ../src/modell/objects/xKeyboardUp.cpp
+	$(CPP) -c ../src/modell/objects/xKeyboardUp.cpp -o ../obj/xKeyboardUp.o $(CXXFLAGS)
+
+../obj/xMotion.o: ../src/modell/objects/xMotion.cpp
+	$(CPP) -c ../src/modell/objects/xMotion.cpp -o ../obj/xMotion.o $(CXXFLAGS)
+
+../obj/xMouse.o: ../src/modell/objects/xMouse.cpp
+	$(CPP) -c ../src/modell/objects/xMouse.cpp -o ../obj/xMouse.o $(CXXFLAGS)
+
+../obj/xMState.o: ../src/modell/objects/xMState.cpp
+	$(CPP) -c ../src/modell/objects/xMState.cpp -o ../obj/xMState.o $(CXXFLAGS)
+
+../obj/xMStatus.o: ../src/modell/objects/xMStatus.cpp
+	$(CPP) -c ../src/modell/objects/xMStatus.cpp -o ../obj/xMStatus.o $(CXXFLAGS)
+
+../obj/xOverlay.o: ../src/modell/objects/xOverlay.cpp
+	$(CPP) -c ../src/modell/objects/xOverlay.cpp -o ../obj/xOverlay.o $(CXXFLAGS)
+
+../obj/xPMotion.o: ../src/modell/objects/xPMotion.cpp
+	$(CPP) -c ../src/modell/objects/xPMotion.cpp -o ../obj/xPMotion.o $(CXXFLAGS)
+
+../obj/xreshape.o: ../src/modell/objects/xreshape.cpp
+	$(CPP) -c ../src/modell/objects/xreshape.cpp -o ../obj/xreshape.o $(CXXFLAGS)
+
+../obj/xSpecial.o: ../src/modell/objects/xSpecial.cpp
+	$(CPP) -c ../src/modell/objects/xSpecial.cpp -o ../obj/xSpecial.o $(CXXFLAGS)
+
+../obj/xSpecialUp.o: ../src/modell/objects/xSpecialUp.cpp
+	$(CPP) -c ../src/modell/objects/xSpecialUp.cpp -o ../obj/xSpecialUp.o $(CXXFLAGS)
+
+../obj/xTimer.o: ../src/modell/objects/xTimer.cpp
+	$(CPP) -c ../src/modell/objects/xTimer.cpp -o ../obj/xTimer.o $(CXXFLAGS)
+
+../obj/xVisibility.o: ../src/modell/objects/xVisibility.cpp
+	$(CPP) -c ../src/modell/objects/xVisibility.cpp -o ../obj/xVisibility.o $(CXXFLAGS)
+
+../obj/xWStatus.o: ../src/modell/objects/xWStatus.cpp
+	$(CPP) -c ../src/modell/objects/xWStatus.cpp -o ../obj/xWStatus.o $(CXXFLAGS)
+
+../obj/ycone.o: ../src/modell/objects/ycone.cpp
+	$(CPP) -c ../src/modell/objects/ycone.cpp -o ../obj/ycone.o $(CXXFLAGS)
+
+../obj/ycube.o: ../src/modell/objects/ycube.cpp
+	$(CPP) -c ../src/modell/objects/ycube.cpp -o ../obj/ycube.o $(CXXFLAGS)
+
+../obj/yDodec.o: ../src/modell/objects/yDodec.cpp
+	$(CPP) -c ../src/modell/objects/yDodec.cpp -o ../obj/yDodec.o $(CXXFLAGS)
+
+../obj/yicos.o: ../src/modell/objects/yicos.cpp
+	$(CPP) -c ../src/modell/objects/yicos.cpp -o ../obj/yicos.o $(CXXFLAGS)
+
+../obj/yOct.o: ../src/modell/objects/yOct.cpp
+	$(CPP) -c ../src/modell/objects/yOct.cpp -o ../obj/yOct.o $(CXXFLAGS)
+
+../obj/yPot.o: ../src/modell/objects/yPot.cpp
+	$(CPP) -c ../src/modell/objects/yPot.cpp -o ../obj/yPot.o $(CXXFLAGS)
+
+../obj/ySphere.o: ../src/modell/objects/ySphere.cpp
+	$(CPP) -c ../src/modell/objects/ySphere.cpp -o ../obj/ySphere.o $(CXXFLAGS)
+
+../obj/yTetr.o: ../src/modell/objects/yTetr.cpp
+	$(CPP) -c ../src/modell/objects/yTetr.cpp -o ../obj/yTetr.o $(CXXFLAGS)
+
+../obj/yTorus.o: ../src/modell/objects/yTorus.cpp
+	$(CPP) -c ../src/modell/objects/yTorus.cpp -o ../obj/yTorus.o $(CXXFLAGS)
+
+../obj/zAction.o: ../src/modell/objects/zAction.cpp
+	$(CPP) -c ../src/modell/objects/zAction.cpp -o ../obj/zAction.o $(CXXFLAGS)
+
+../obj/zClipPlane.o: ../src/modell/objects/zClipPlane.cpp
+	$(CPP) -c ../src/modell/objects/zClipPlane.cpp -o ../obj/zClipPlane.o $(CXXFLAGS)
+
+../obj/zCmd.o: ../src/modell/objects/zCmd.cpp
+	$(CPP) -c ../src/modell/objects/zCmd.cpp -o ../obj/zCmd.o $(CXXFLAGS)
+
+../obj/zcuboid.o: ../src/modell/objects/zcuboid.cpp
+	$(CPP) -c ../src/modell/objects/zcuboid.cpp -o ../obj/zcuboid.o $(CXXFLAGS)
+
+../obj/zdisplaylist.o: ../src/modell/objects/zdisplaylist.cpp
+	$(CPP) -c ../src/modell/objects/zdisplaylist.cpp -o ../obj/zdisplaylist.o $(CXXFLAGS)
+
+../obj/zevent.o: ../src/modell/objects/zevent.cpp
+	$(CPP) -c ../src/modell/objects/zevent.cpp -o ../obj/zevent.o $(CXXFLAGS)
+
+../obj/zexec.o: ../src/modell/objects/zexec.cpp
+	$(CPP) -c ../src/modell/objects/zexec.cpp -o ../obj/zexec.o $(CXXFLAGS)
+
+../obj/zgraticule.o: ../src/modell/objects/zgraticule.cpp
+	$(CPP) -c ../src/modell/objects/zgraticule.cpp -o ../obj/zgraticule.o $(CXXFLAGS)
+
+../obj/zinput.o: ../src/modell/objects/zinput.cpp
+	$(CPP) -c ../src/modell/objects/zinput.cpp -o ../obj/zinput.o $(CXXFLAGS)
+
+../obj/zLighting.o: ../src/modell/objects/zLighting.cpp
+	$(CPP) -c ../src/modell/objects/zLighting.cpp -o ../obj/zLighting.o $(CXXFLAGS)
+
+../obj/zObject.o: ../src/modell/objects/zObject.cpp
+	$(CPP) -c ../src/modell/objects/zObject.cpp -o ../obj/zObject.o $(CXXFLAGS)
+
+../obj/zPerspective.o: ../src/modell/objects/zPerspective.cpp
+	$(CPP) -c ../src/modell/objects/zPerspective.cpp -o ../obj/zPerspective.o $(CXXFLAGS)
+
+../obj/zPop.o: ../src/modell/objects/zPop.cpp
+	$(CPP) -c ../src/modell/objects/zPop.cpp -o ../obj/zPop.o $(CXXFLAGS)
+
+../obj/zPush.o: ../src/modell/objects/zPush.cpp
+	$(CPP) -c ../src/modell/objects/zPush.cpp -o ../obj/zPush.o $(CXXFLAGS)
+
+../obj/zqueue.o: ../src/modell/objects/zqueue.cpp
+	$(CPP) -c ../src/modell/objects/zqueue.cpp -o ../obj/zqueue.o $(CXXFLAGS)
+
+../obj/zRectangle.o: ../src/modell/objects/zRectangle.cpp
+	$(CPP) -c ../src/modell/objects/zRectangle.cpp -o ../obj/zRectangle.o $(CXXFLAGS)
+
+../obj/zRotation.o: ../src/modell/objects/zRotation.cpp
+	$(CPP) -c ../src/modell/objects/zRotation.cpp -o ../obj/zRotation.o $(CXXFLAGS)
+
+../obj/zTranslation.o: ../src/modell/objects/zTranslation.cpp
+	$(CPP) -c ../src/modell/objects/zTranslation.cpp -o ../obj/zTranslation.o $(CXXFLAGS)
+
+../obj/scene.o: ../src/modell/scene/scene.cpp
+	$(CPP) -c ../src/modell/scene/scene.cpp -o ../obj/scene.o $(CXXFLAGS)
+
+../obj/static.o: ../src/modell/scene/static.cpp
+	$(CPP) -c ../src/modell/scene/static.cpp -o ../obj/static.o $(CXXFLAGS)

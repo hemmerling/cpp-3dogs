@@ -1,0 +1,50 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Notwendige GLUT-Patches für den Dev-C++ Version 4.9.8.0
+2003-11-05
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+-----------------------------------------------------------------------
+
+Fehlermeldung:
+
+   Compiler: "gl/glut.h: No such file or directory"
+
+Abhilfe:
+
+   Datei glut.h in Verzeichnis <Compilerpfad>/include/gl kopieren.
+
+-----------------------------------------------------------------------
+
+Fehlermeldung:
+
+   [Linker Error] undefined reference to '_glut...'"
+
+
+Abhilfe:
+
+   Bibliotheken zum Linken angeben:
+   (unter Projekt Optionen  (ALT+P) - Parameter - Linker - 
+       - Bibliothek/Objekt hinzufügen:
+         ../Dev-Cpp/lib/libopengl32.a
+         ../Dev-Cpp/lib/libglut32.a
+         ../Dev-Cpp/lib/libglu32.a          
+
+-----------------------------------------------------------------------
+
+Fehlermeldung:
+
+   Laufzeitfehler "ogl-test.exe - DLL ... GLUT32.DLL nicht gefunden..."
+
+Abhilfe:
+
+   Datei glut.dll in Verzeichnis %SystemRoot%/sytem kopieren 
+   (z.B. nach c:\WINNT\SYSTEM).
+
+-----------------------------------------------------------------------
+
+Dies sollte reichen, um mit dem Dev-C-Compiler OpenGL-/GLUT-Programme 
+zu erstellen.
+

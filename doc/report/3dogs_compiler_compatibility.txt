@@ -1,0 +1,18 @@
+MinGW 4.x
+Dev-Cpp 4.9.9.3, MinGW 4.5.2
+Dev-Cpp 5.7.1, MinGW 4.8.1
+are not suitable to compile the project. 
+The compilers aborts by the error message:
+
+from ../../src/framework/opengl/../../3dogs.h:105:0,
+from ../../src/framework/opengl/callback.h:4,
+from ../../src/framework/opengl/main.cpp:1:
+../../src/framework/opengl/../../modell/general/light.cpp: In member function 'virtual void Light<TT>::setR(TT)':
+../../src/framework/opengl/../../modell/general/light.cpp:10:49: error: 'vektor' was not declared in this scope
+ template<class TT> void Light<TT>::setR(TT r){  vektor[0] = r; }
+
+
+MinGW 3.x
+Dev-C++ 4.9.8.0 with MinGW 3.2
+Dev-C++ 4.9.9.1 with MinGW 3.3.1
+are suitable to compile the project. 
